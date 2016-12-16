@@ -7,7 +7,7 @@ then
 fi
 
 echo "1) Cloning directory.."
-git clone git@github.com:gjrdiesel/jaravel.git "$1"
+git clone https://github.com/gjrdiesel/jaravel.git "$1"
 cd "$1"
 
 echo "2) Removing package .git folder"

@@ -6,5 +6,5 @@ Very specific modifications to the Laravel framework to more closely match what 
 Run this command from your projects directory
 
 ```
-bash <(curl -s https://github.com/gjrdiesel/jaravel/blob/gjr_master/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/gjrdiesel/jaravel/gjr_master/install.sh)
 ```
