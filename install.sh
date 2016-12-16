@@ -37,6 +37,9 @@ mysql -u root -p -e "create database $1"
 echo "10) Running migrations..."
 php artisan migrate
 
+echo "Cleaning up script..."
+rm install.sh
+
 echo "11) Initialising new git repo..."
 git init
 
@@ -46,5 +49,3 @@ git commit -m "Initial commit"
 
 echo -e "\n\n"
 echo "Done with the the entire install! Good luck."
-
-rm install.sh
